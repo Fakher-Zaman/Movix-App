@@ -28,15 +28,13 @@ const HeroBanner = () => {
     return (
         <div className="heroBanner">
             {!loading && <div className="backdrop-img">
-                <img src={background} alt="background-img" />
+                <Img src={background} alt="background-img" />
             </div>}
-
             <div className="opacity-layer"></div>
-
             <ContentWrapper>
                 <div className="heroBannerContent">
                     <span className="title">Welcome.</span>
-                    <span className="subtitle">Millions of movies, TV shows and people to discover. Explore now.</span>
+                    <span className="subTitle">Millions of movies, TV shows and people to discover. Explore now.</span>
                     <div className="searchInput">
                         <input
                             type="text"
