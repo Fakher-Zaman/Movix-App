@@ -6,7 +6,8 @@ Movix is a feature-rich app that offers a vast collection of movies, personalize
 
 ## Project Site
 
-https://movix-vite.netlify.app/
+https://movix-app-khaki.vercel.app/
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
