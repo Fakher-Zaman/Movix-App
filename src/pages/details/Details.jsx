@@ -1,13 +1,12 @@
-import { useParams } from "react-router-dom"
-import useFetch from "../../hooks/useFetch"
+import { useParams } from "react-router-dom";
+import "./style.scss";
 
-import "./style.scss"
-
-import DetailsBanner from "./detailsBanner.jsx/DetailsBanner"
-import Cast from "./cast/Cast"
-import VideosSection from "./videosSection/VideosSection"
-import Similar from "./carousels/Similar"
-import Recommendation from "./carousels/Recommendation"
+import useFetch from "../../hooks/useFetch";
+import DetailsBanner from "./detailsBanner/DetailsBanner";
+import Cast from "./cast/Cast";
+import VideosSection from "./videosSection/VideosSection";
+import Similar from "./carousels/Similar";
+import Recommendation from "./carousels/Recommendation";
 
 const Details = () => {
     const { mediaType, id } = useParams();
@@ -24,7 +23,7 @@ const Details = () => {
             <Similar mediaType={mediaType} id={id} />
             <Recommendation mediaType={mediaType} id={id} />
         </div>
-    )
-}
+    );
+};
 
-export default Details
+export default Details;
